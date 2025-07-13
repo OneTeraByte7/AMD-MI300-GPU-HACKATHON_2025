@@ -52,6 +52,3 @@
 **/.DS_Store
 **/Thumbs.db
 Keys/*.token
-=======
-/.env
->>>>>>> 3aa2316466099a42bb42cfad0e2f5e09cf707c63
