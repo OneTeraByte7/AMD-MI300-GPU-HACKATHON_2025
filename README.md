@@ -42,18 +42,6 @@ Traditional scheduling tools rely on rule-based automation or human input. Your 
 - Acting independently (e.g., sending follow-ups, adjusting for time zones).
 - Learning from user preferences (e.g., preferred times, recurring meetings). 
 
-#### Key Features to Consider:
-##### Your solution should aim to include: <br>
-✅ Autonomous Coordination: The AI initiates scheduling without human micromanagement. <br>
-✅ Dynamic Adaptability: Handles last-minute changes or conflicting priorities. <br>
-✅ Natural Language Interaction: Users may converse with the AI (e.g., “Schedule a meeting on Tuesday”).  <br>
-✅	Calendar Integration: Syncs with Google Calendar <br>
-
-#### Success Metrics: 
-#### A winning solution will excel in: <br>
-✅ Autonomy: Minimal human intervention needed.  <br>
-✅ Accuracy: Few scheduling errors or conflicts. <br>
-✅ User Experience: Intuitive and time-saving. <br>
 
 #### Setup & Requirements:
 - Tools/APIs Needed: LLM ( vLLM server running on MI300 GPU). 
@@ -208,14 +196,6 @@ python -m pytest tests/
 - Secure credential storage
 - Environment variable configuration
 
-## Contributing
-
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
-
 ## License
 
 MIT License - See LICENSE file for details
@@ -323,8 +303,6 @@ The input to your code will be in JSON format in the below structure.
 ```
 
 #### Final Output JSON : 
-Your Final Output JSON should follow below structure.  <br>
-##### Note : This output will be graded for quallifying & scoring. 
 ```
 {
     "Request_id": "6118b54f-907b-4451-8d48-dd13d76033a5",
@@ -420,15 +398,7 @@ Your Final Output JSON should follow below structure.  <br>
     "MetaData": {}
 }
 ```
----------
-### Submission :
 
-#### Please follow : [Submission Notebook](https://github.com/AMD-AI-HACKATHON/AI-Scheduling-Assistant/blob/main/Submission.ipynb)
-##### ```def your_meeting_assistant( )``` takes Meeting request JSON as Input
-##### ```your_meeting_assistant( )``` returns with two New Fields : 
-- processed 
-- output
-#### At the end of the Hackathon time ( at 2:00 P.M), you must execute this code
 #### We will send JSONs at Port 5000 & will receive your AI Assistant Response
 #### Make sure that your Output strictly follows the specified format. 
 
