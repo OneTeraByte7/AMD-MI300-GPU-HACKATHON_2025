@@ -79,7 +79,7 @@ POST /schedule:
 }
 ```
 
-##Calendar Events:
+## Calendar Events:
 ```bash
 GET /calendar_events?user=email@example.com&start=YYYY-MM-DDT00:00:00&end=YYYY-MM-DDT23:59:59
 ```
