@@ -64,6 +64,7 @@ Learns: Adapts based on usage patterns (e.g., preferred hours, locations)
 ## 🛠️ API Example
 Schedule Meeting
 POST /schedule:
+This will help to schedule
 ```bash
 {
   "Request_id": "123",
